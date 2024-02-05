@@ -1,0 +1,48 @@
+.centeredheading{
+
+.head{
+    
+    text-align:center;
+    font-family: verdana;
+  
+    font-size: 300%;
+
+    
+    
+}
+.head2{ 
+    text-align:center;
+    font-family: verdana;
+    font-size: 175%;
+}
+    background-color:rgb(212, 187, 154);
+    border: 2px solid rgb(150, 176, 180);
+  }
+
+.para{
+    display: flex;
+   
+    
+   
+    font-family: courier;
+    font-size: 160%;
+
+}
+body{
+    background-image:url('./images/portfolio background.jpg');
+    background-size: cover;
+   
+    
+
+    
+}
+.contactinfo{
+    display: flex;
+    background-color:burlywood;
+    border: 2px solid powderblue;
+    margin: 50px;
+    padding: 40px;
+    font-family:Arial;
+    text-align: center;
+    font-size: 150%;
+}

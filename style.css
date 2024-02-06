@@ -3,8 +3,8 @@
 .head{
     
     text-align:center;
-    font-family: verdana;
-  
+    font-family: Garamond;
+    color:crimson;
     font-size: 300%;
 
     
@@ -12,24 +12,16 @@
 }
 .head2{ 
     text-align:center;
-    font-family: verdana;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 175%;
+    color: rgb(47, 91, 91);
 }
     background-color:rgb(212, 187, 154);
     border: 2px solid rgb(150, 176, 180);
   }
 
-.para{
-    display: flex;
-   
-    
-   
-    font-family: courier;
-    font-size: 160%;
-
-}
 body{
-    background-image:url('./images/portfolio background.jpg');
+    background-image:url('./images/background new.jpg');
     background-size: cover;
    
     
@@ -37,12 +29,80 @@ body{
     
 }
 .contactinfo{
+  
     display: flex;
     background-color:burlywood;
     border: 2px solid powderblue;
-    margin: 50px;
-    padding: 40px;
+    margin: auto;
+    
     font-family:Arial;
+    
+  
+
+    margin: auto;
+    width: 50%;
+    padding : 10px;
+    
     text-align: center;
     font-size: 150%;
 }
+
+.center {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius:50% ;
+    
+}
+    
+.newestinfo{
+    content:"";
+    clear :both;
+    display: table;
+    .contentbody{
+        display: flex;
+        background-color:burlywood;
+        border: 2px solid powderblue;
+        margin: auto;
+        width: 50%;
+        padding : 10px;
+        
+        text-align: center;
+        font-size: 150%;
+    .para{
+        display: flex;
+       color: blue;
+        
+       
+        font-family: courier;
+        font-size: 60%;
+         }
+    }
+    .contactnew{
+            display: flex;
+            background-color:burlywood;
+            border: 2px solid powderblue;
+            margin: auto;
+            width: 50%;
+            padding : 10px;
+        .phonenew{
+        font-family: 'Franklin Gothic Medium';
+        text-align: center;
+        font-size: 150%;
+        }
+        
+           
+    
+
+        
+           
+          
+
+        
+
+    }
+}
+
+    

@@ -104,5 +104,26 @@ body{
 
     }
 }
+nav {
+    position: absolute;
+    top: 20px;
+    right: 20px
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
 
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
     
